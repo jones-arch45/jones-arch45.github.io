@@ -79,7 +79,7 @@ interest h3 {
 }
 
 .content h1 {
-  color: black;
+  color: rgb(173, 31, 31);
 }
 
 #portfolio {
@@ -113,8 +113,8 @@ interest h3 {
 }
 
 #portfolio a:hover {
-  background: #000;
-  color: #fff;
+  background: #fff3f3;
+  color: #e0dd03;
   transform: translateX(4px);
 }
 
@@ -128,4 +128,8 @@ interest h3 {
 
 #portfolio a:hover::after {
   opacity: 1;
+}
+
+#h3{
+  color: green
 }
